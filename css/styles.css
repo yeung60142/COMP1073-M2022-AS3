@@ -1,0 +1,64 @@
+
+/* Style the input */
+input {
+  font-size: 20px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 50%;
+  padding: 5px;
+ 
+}
+.addButton {
+	font-size: 20px;
+	padding: 5px;
+  width: 10%;
+  background: #93c47d;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #38761d;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  background: #d9ead3;
+  font-size: 25x;
+	  text-align: center;
+}
+
+/* when a todo
+is checked, the item is styled with a CSS text-decoration: line-through */
+ul li.checked {
+  text-decoration: line-through;
+  background: #bcbcbc;
+}
+
+/* Style the checkDel button */
+.checkDel1 {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.checkDel1:hover {
+  background-color: #38761d;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: #b6d7a8;
+  padding: 5px;
+  text-align: center;
+}
